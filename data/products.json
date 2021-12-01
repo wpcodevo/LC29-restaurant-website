@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Fried Chicken",
+      "price": "13.00",
+      "url": "./images/products/pic-4.jpg",
+      "category": "Soda"
+    },
+    {
+      "id": 2,
+      "title": "Burger Patty Recipe",
+      "price": "15.00",
+      "url": "./images/products/pic-1.jpg",
+      "category": "Pizza"
+    },
+    {
+      "id": 3,
+      "title": "Try Dishes ",
+      "price": "12.00",
+      "url": "./images/products/pic-5.jpg",
+      "category": "Fries"
+    },
+    {
+      "id": 4,
+      "title": "French Fries",
+      "price": "17.00",
+      "url": "./images/products/pic-8.jpg",
+      "category": "Burger"
+    },
+    {
+      "id": 5,
+      "title": "Toasted Bread",
+      "price": "19.00",
+      "url": "./images/products/pic-6.jpg",
+      "category": "Soda"
+    },
+    {
+      "id": 6,
+      "title": "Biscuit",
+      "price": "20.00",
+      "url": "./images/products/pic-9.jpg",
+      "category": "Pizza"
+    },
+    {
+      "id": 7,
+      "title": "Ice Cream",
+      "price": "5.00",
+      "url": "./images/products/pic-7.jpg",
+      "category": "Fries"
+    },
+    {
+      "id": 8,
+      "title": "Ice Cream",
+      "price": "18.00",
+      "url": "./images/products/pic-3.jpg",
+      "category": "Pizza"
+    },
+    {
+      "id": 9,
+      "title": "Ice Cream",
+      "price": "20.00",
+      "url": "./images/products/pic-5.jpg",
+      "category": "Burger"
+    },
+    {
+      "id": 10,
+      "title": "Ice Cream",
+      "price": "17.00",
+      "url": "./images/products/pic-10.jpg",
+      "category": "Soda"
+    }
+  ]
+}

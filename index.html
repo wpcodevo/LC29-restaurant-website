@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== Swiper CSS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <!--=============== Boxicons ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--=============== Custom StyleSheet ===============-->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Food Delivery</title>
+  </head>
+
+  <body>
+    <!--=============== Header ===============-->
+    <header class="header">
+      <nav class="navbar">
+        <div class="row container d-flex">
+          <a href="/" class="logo">
+            <img src="./images/logo.svg" alt="" />
+          </a>
+
+          <ul class="nav-list d-flex">
+            <a href="">Home</a>
+            <a href="">Shop</a>
+            <a href="">Pages</a>
+            <a href="">About Us</a>
+            <a href="">Lookups</a>
+            <span class="close d-flex"><i class="bx bx-x"></i></span>
+          </ul>
+
+          <div class="side-icons d-flex">
+            <div class="search-icon d-flex">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="cart-icon d-flex">
+              <i class="bx bx-shopping-bag"></i>
+              <span></span>
+            </div>
+            <a class="btn login">Log in</a>
+          </div>
+
+          <!-- Hamburger -->
+          <div class="hamburger d-flex">
+            <i class="bx bx-menu"></i>
+          </div>
+        </div>
+      </nav>
+      <!--=============== Home ===============-->
+      <div class="home">
+        <div class="row container d-flex">
+          <div class="content">
+            <span>FASTER FOR YOU</span>
+            <h1>
+              Be The <span>Fastest</span> In <br />
+              <span>Delivering</span> Your<br />
+              Delicious <span>Food</span>
+            </h1>
+            <p>
+              Lorem ispum text is a free text that can be easily used as a free
+              text. Lorem ispum text is a free text that can be easily used as a
+              free text.
+            </p>
+            <div class="buttons d-flex">
+              <button class="btn buy-btn">Buy Now!</button>
+              <button class="btn watch-btn d-flex">
+                <img src="./images/video-icon.svg" alt="" />
+                Watch Video
+              </button>
+            </div>
+          </div>
+          <img src="./images/person.png" alt="Girl Eating Pizza" />
+        </div>
+      </div>
+
+      <!--===============  Shapes===============-->
+      <div class="triangle"></div>
+      <div class="rectangle rectangle1"></div>
+      <div class="rectangle rectangle2"></div>
+      <div class="circle circle1"></div>
+      <div class="circle circle2"></div>
+
+      <!--===============  Video ===============-->
+      <div class="wrapper d-flex">
+        <video class="video">
+          <source src="./video.mp4" type="video/mp4" />
+          <!-- <source src="./images/hero-2.webm" type="video/webm" /> -->
+        </video>
+        <div class="close-video">
+          <i class="bx bx-x"></i>
+        </div>
+        <span class="video-control d-flex"><i class="bx bx-play"></i></span>
+      </div>
+    </header>
+    <!--=============== Dishes List ===============-->
+    <section class="dishes">
+      <div class="row container">
+        <div class="title">
+          <span>Our Best Dishes</span>
+          <h1>
+            The Dishes That Always<br />
+            Makes You Staisfy
+          </h1>
+          <p>
+            Lorem ispum text is a free text that can be easily used as a free
+            text.<br />
+            Lorem ispum text is a free text that can be easily used.
+          </p>
+        </div>
+
+        <div class="products-container">
+          <div class="filters">
+            <div data-filter="Burger">
+              <img src="./images/hamburger.png" alt="" />
+              Burger
+            </div>
+            <div data-filter="Fries">
+              <img src="./images/fries.png" alt="" />
+              Fries
+            </div>
+            <div data-filter="Soda">
+              <img src="./images/straw.png" alt="" />
+              Soda
+            </div>
+            <div data-filter="Pizza">
+              <img src="./images/pizza.png" alt="" />
+              Pizza
+            </div>
+          </div>
+
+          <div class="products">
+            <div class="swiper product-swiper">
+              <div class="swiper-wrapper" id="products-wrapper">
+                <!-- <div class="swiper-slide">
+                  <div class="product">
+                    <img src="./images/profile-1.jpg" alt="" />
+                    <div class="overlay">
+                      <h4>French Fries</h4>
+                      <div class="d-flex">
+                        <span class="price">$10</span>
+                        <span class="rating"><i class="bx bxs-star"></i> 5.0</span>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <div class="navigation d-flex">
+              <div class="custom-btn custom-prev">
+                <i class="bx bx-left-arrow-alt"></i>
+              </div>
+              <div class="custom-btn custom-next">
+                <i class="bx bx-right-arrow-alt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=============== Buying Procedure ===============-->
+    <section class="buying-procedure">
+      <div class="row container">
+        <div class="title">
+          <span>STEP BY STEP</span>
+          <h1>How It Works</h1>
+          <p>
+            Lorem ispum text is a free text that can be easily used as a free
+            text.<br />
+            Lorem ispum text is a free text that can be easily used.
+          </p>
+        </div>
+
+        <div class="steps-container">
+          <div class="step">
+            <span class="square-icon"></span>
+            <h3>Select Dishes</h3>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint.
+            </p>
+            <a href="">Read More >></a>
+          </div>
+          <div class="step">
+            <span class="square-icon"></span>
+            <h3>Add Items</h3>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint.
+            </p>
+            <a href="">Read More >></a>
+          </div>
+          <div class="step">
+            <span class="square-icon"></span>
+            <h3>Pay & Order</h3>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint.
+            </p>
+            <a href="">Read More >></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=============== Testimonials ===============-->
+    <section class="testimonials">
+      <div class="container row">
+        <div class="title">
+          <span>What They Say</span>
+          <h1>What Our Client Say’s</h1>
+          <p>
+            Lorem ispum text is a free text that can be easily used as a free
+            text.<br />
+            Lorem ispum text is a free text that can be easily used.
+          </p>
+        </div>
+
+        <div class="testimonials-slider">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="col d-flex">
+                    <div class="info d-flex">
+                      <div class="image">
+                        <img src="./images/profile-1.jpg" alt="" />
+                      </div>
+                      <div>
+                        <h4>Viezh Robert</h4>
+                        <span>Warsaw, Poland</span>
+                      </div>
+                    </div>
+
+                    <!-- Rating -->
+                    <div class="rating d-flex">
+                      <span>4.5</span>
+                      <span><i class="bx bxs-star"></i></span>
+                    </div>
+                  </div>
+
+                  <p class="col">
+                    “Wow... I am very happy to use this VPN, it turned out to be
+                    more than my expectations and so far there have been no
+                    problems. LaslesVPN always the best”.
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="col d-flex">
+                    <div class="info d-flex">
+                      <div class="image">
+                        <img src="./images/profile-2.jpg" alt="" />
+                      </div>
+                      <div>
+                        <h4>Yessica Christy</h4>
+                        <span>Shanxi, China</span>
+                      </div>
+                    </div>
+
+                    <!-- Rating -->
+                    <div class="rating d-flex">
+                      <span>4.5</span>
+                      <span><i class="bx bxs-star"></i></span>
+                    </div>
+                  </div>
+
+                  <p class="col">
+                    “I like it because I like to travel far and still can
+                    connect with high speed.”.
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="col d-flex">
+                    <div class="info d-flex">
+                      <div class="image">
+                        <img src="./images/profile-3.jpg" alt="" />
+                      </div>
+                      <div>
+                        <h4>Kim Young Jou</h4>
+                        <span>Seoul, South Korea</span>
+                      </div>
+                    </div>
+
+                    <!-- Rating -->
+                    <div class="rating d-flex">
+                      <span>4.5</span>
+                      <span><i class="bx bxs-star"></i></span>
+                    </div>
+                  </div>
+
+                  <p class="col">
+                    “This is very unusual for my business that currently
+                    requires a virtual private network that has high security.”.
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="col d-flex">
+                    <div class="info d-flex">
+                      <div class="image">
+                        <img src="./images/profile-4.jpg" alt="" />
+                      </div>
+                      <div>
+                        <h4>Kim Young Jou</h4>
+                        <span>Seoul, South Korea</span>
+                      </div>
+                    </div>
+
+                    <!-- Rating -->
+                    <div class="rating d-flex">
+                      <span>4.5</span>
+                      <span><i class="bx bxs-star"></i></span>
+                    </div>
+                  </div>
+                  <p class="col">
+                    “This is very unusual for my business that currently
+                    requires a virtual private network that has high security.”.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="navigation d-flex">
+              <div class="custom-pagination"></div>
+              <div class="d-flex">
+                <div class="custom-button custom-button-next d-flex">
+                  <i class="bx bx-left-arrow-alt"></i>
+                </div>
+                <div class="custom-button custom-button-prev d-flex">
+                  <i class="bx bx-right-arrow-alt"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== Contact form ===============-->
+    <section class="contact">
+      <div class="row container">
+        <div class="title">
+          <span>What They Say</span>
+          <h1>What Our Client Say’s</h1>
+          <p>
+            Lorem ispum text is a free text that can be easily used as a free
+            text.<br />
+            Lorem ispum text is a free text that can be easily used.
+          </p>
+        </div>
+
+        <form class="d-flex">
+          <div class="d-flex">
+            <label for="email">Email</label>
+            <input type="email" placeholder="contact@ziddah.com" />
+          </div>
+          <div class="textarea d-flex">
+            <label for="message">Message</label>
+            <textarea placeholder="Say Hello!"></textarea>
+          </div>
+          <button type="submit" class="btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    <!--=============== Articles ===============-->
+    <section class="articles">
+      <div class="row container">
+        <div class="title">
+          <span>What They Say</span>
+          <h1>What Our Client Say’s</h1>
+          <p>
+            Lorem ispum text is a free text that can be easily used as a free
+            text.<br />
+            Lorem ispum text is a free text that can be easily used.
+          </p>
+        </div>
+
+        <div class="articles-container">
+          <div class="article">
+            <img src="./images/article-1.jpg" alt="" />
+            <h3>Trendy</h3>
+            <p>
+              Lorem Ispum is a placeholder text<br />
+              commomly used as a free text.
+            </p>
+            <span class="date">10 January 2021</span>
+          </div>
+
+          <div class="article">
+            <img src="./images/article-2.jpg" alt="" />
+            <h3>Trendy</h3>
+            <p>
+              Lorem Ispum is a placeholder text<br />
+              commomly used as a free text.
+            </p>
+            <span class="date">10 January 2021</span>
+          </div>
+
+          <div class="article">
+            <img src="./images/article-3.jpg" alt="" />
+            <h3>Trendy</h3>
+            <p>
+              Lorem Ispum is a placeholder text<br />
+              commomly used as a free text.
+            </p>
+            <span class="date">10 January 2021</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=============== Footer ===============-->
+    <footer class="footer bg-color1">
+      <div class="row container">
+        <div class="col">
+          <a href="" class="logo"><img src="./images/logo.svg" alt="" /></a>
+          <div class="icons">
+            <div class="icon"><i class="bx bxl-facebook"></i></div>
+            <div class="icon"><i class="bx bxl-twitter"></i></div>
+            <div class="icon"><i class="bx bxl-instagram"></i></div>
+            <div class="icon"><i class="bx bxl-youtube"></i></div>
+          </div>
+          <p>
+            Copyrights 2021<br />
+            @Iamabdulqadeer01
+          </p>
+        </div>
+        <div class="col">
+          <div>
+            <h4>Product</h4>
+            <a href="">Download</a>
+            <a href="">Pricing</a>
+            <a href="">Locations</a>
+          </div>
+          <div>
+            <h4>Category</h4>
+            <a href="">Men</a>
+            <a href="">Women</a>
+            <a href="">Kids</a>
+          </div>
+          <div>
+            <h4>My Account</h4>
+            <a href="">My Account</a>
+            <a href="">Discount</a>
+            <a href="">Returns</a>
+          </div>
+          <div>
+            <h4>Contact Us</h4>
+            <a href=""
+              ><i class="bx bxs-map"></i> 123 Street Trafford, London, UK</a
+            >
+            <a href=""
+              ><i class="bx bxs-envelope"></i> info@sitename<br />.com</a
+            >
+            <a href=""><i class="bx bxs-phone"></i> +456 789 789 001</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--=============== Swiper JS ===============-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!--=============== Custom JS ===============-->
+    <script src="./js/products.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
