@@ -5,6 +5,7 @@ const productSwiper = new Swiper(".product-swiper", {
   grabCursor: true,
   slidesPerView: 1,
   spaceBetween: 30,
+  watchOverflow: true,
   navigation: {
     nextEl: ".custom-next",
     prevEl: ".custom-prev",

@@ -1,15 +1,13 @@
 /* ========== Navigation =========== */
-const hamburger = document.querySelector(".hamburger");
-const close = document.querySelector(".nav-list .close");
 const menu = document.querySelector(".nav-list");
 
-hamburger.addEventListener("click", () => {
+document.querySelector(".hamburger").onclick = () => {
   menu.classList.add("show");
-});
+};
 
-close.addEventListener("click", () => {
+document.querySelector(".nav-list .close").onclick = () => {
   menu.classList.remove("show");
-});
+};
 
 /* ========== Video PopUp =========== */
 const video = document.querySelector(".video");
