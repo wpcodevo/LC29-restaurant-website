@@ -34,6 +34,20 @@ function playpausevideo() {
 
 button.addEventListener("click", playpausevideo);
 
+/* ========== SignIn Form =========== */
+const signInForm = document.querySelector(".form-wrapper");
+
+[".login-link", ".login"].forEach((p) => {
+  document.querySelector(p).onclick = () => {
+    signInForm.classList.add("active");
+    menu.classList.remove("show");
+  };
+});
+
+document.querySelector(".close-form").onclick = () => {
+  signInForm.classList.remove("active");
+};
+
 /* ========== Testimonials Swiper =========== */
 const swiper = new Swiper(".mySwiper", {
   grabCursor: true,
